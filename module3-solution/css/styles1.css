@@ -1,5 +1,5 @@
 /********** Base styles **********/
-* {
+ 	*{
   	box-sizing: border-box;
   	margin: 0;
 }
@@ -14,7 +14,6 @@ h1 {
 }
 .nav-logo {
 	font-size: 150%;
-	/*font-weight: bold;*/
 	margin-left: 20px;
 	color: black;
 	font-family: Verdana;
@@ -22,37 +21,37 @@ h1 {
 .nav-logo:hover {
 	color: black;
 }
-.menu-style {
-	font-size: 20px;
-	border-width: 3px;
-	border-color: red;
-	font-weight: bold;
-	/*border-style: solid;
-	padding: 5px;
-	margin: 5px;*/
-	border-radius: 5px;
-}
 .nav-dropdown-menu {
 	background-color: #e6e6e6;
-	/*border-color: black;
+	border-color: black;
 	border-width: 1px;
-	border-style: solid;*/ 
+	border-style: solid;
 }
 .nav-dropdown-menu-item {
 	border-color: black;
 	border-width: 1px;
 	border-style: solid;
 }
-.main-paragraph {
-	height: 500px;
+.main-paragraph1 {
 	background-color: #e6e6e6;
 	padding: 2%;
 }
-.section-header {
+.main-paragraph2{
 	background-color: #e6e6e6;
+	padding: 2%;
+}
+.main-paragraph3{
+	background-color: #e6e6e6;
+	padding: 2%;
+}
+h3 {
 	font-size: 120%;
 	font-family: Verdana;
-	font-weight: bold;
-	margin-top: 5px;
-	padding-top: 5px;
+	font-weight: bold
+}
+.text-length {
+	height: 700px;
+}
+.section-header {
+	height: 500px;
 }
